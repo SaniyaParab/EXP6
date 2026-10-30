@@ -1,1 +1,41 @@
-hello my name is saniya
+hello my name is Saniya parab
+
+
+
+
+# 1. Clone the repository
+git clone https://github.com/YOUR-USERNAME/GitRemoteExperiment.git
+
+# 2. Enter the repository
+cd GitRemoteExperiment
+
+# 3. Check the remote
+git remote -v
+
+# 4. Create a new file
+echo This is my Git experiment. > experiment.txt
+
+# 5. Check changes
+git status
+
+# 6. Stage the file
+git add experiment.txt
+
+# 7. Commit changes
+git commit -m "Add experiment file"
+
+# 8. Push changes to GitHub
+git push origin main
+
+# 9. Fetch remote changes
+git fetch origin
+
+# 10. Check remote commits
+git log --oneline main..origin/main
+
+# 11. Pull remote changes
+git pull origin main
+
+# 12. Check commit history
+git log --oneline
+
